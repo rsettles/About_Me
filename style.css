@@ -1,4 +1,188 @@
-h1 {
-font-size: 100px;
-color: red;
+html, body {
+  height: 100%;
 }
+#wrapper {
+  min-height: 100%;
+}
+#main {
+  overflow:auto;
+  padding-bottom: 150px;}  /* must be same height as the footer */
+#footer {position: relative;
+  margin-top: -45px; /* negative value of footer height */
+  height: 100px;
+  clear:both;}
+
+
+    header {
+      text-align: center;
+      background: #2ba1d6;
+      background-size: cover;
+      color: white;
+      margin: 0 0 20px 0;
+      border-style:solid #2ba1d6;
+      border-bottom: solid #117acb
+      
+
+    }
+
+    .headerborder {
+      background: #1a5377
+      background-size:20px;
+
+      .profilepic {
+        max-width: px;
+      }
+     
+ }
+
+ /*h1 padding controls header size*/
+    h1 {
+      font-size: 25px;
+      margin: 0px;
+      padding: 20px 20px;
+      text-align:left;
+
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: -10px 0;
+    }
+    article img {
+/*      border: 1px solid black;
+      border-radius: 50px;
+      border-color: black
+      padding: 50px auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;*/
+      display: block;
+      max-width: 250px;
+      margin: 0 auto 30px;
+      border-radius: 100%
+
+    }
+
+    article p {
+      font-size: 15px;
+    }
+
+    .htmlpic {
+      float: right;
+      margin: 0 auto;
+      padding: 10px 20px 10px 0px;
+
+    }
+
+    .jspic {
+      float: right;
+      margin: 0 auto;
+      padding: 10px 20px 10px 0px;
+    }
+    .jquerypic
+    {
+      float: right;
+      margin: 0 auto;
+      padding: 10px 20px 10px 0px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px 0 px;
+      margin: 0 auto;
+    }
+
+    article h2 {
+      text-align: center;
+    }
+    article p {
+      text-align: center;
+    }
+
+    button {
+      border: 0;
+      padding: 5px;
+      font-size: 18px;
+      background: #B8B8B8;
+      color: white;
+      text-decoration: none;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      border-radius: 50px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+
+}
+
+h3 {
+text-align: center;
+
+}
+
+
+.social-icon {
+
+  width: 40px;
+  height: 40px;
+  padding: 0 0 5px 26px;
+
+}
+
+footer p {
+ 
+   font-size: 15px;
+      margin: 0 0 5px 15px;
+      padding: -5px 20px 5px 20px;
+      text-align:left;
+}
+
+#footer {
+  margin: -20 0 0 0;
+}
+
+
+/*Carousel*/
+#carousel {
+    width:      480px;
+    overflow:   hidden;
+    margin: 0 auto;
+
+  }
+
+  #carousel ul {
+    width:  1920px;
+    padding:0;
+    margin:0;
+  }
+
+  #carousel ul li {
+    width:480px;
+    text-align:   center;
+    height: 280px;
+    list-style:   none;
+    float:  left;
+}
+
+#carousel ul li p {
+font-size: 20px;
+margin: -20px 0 0 0;
+}
+
+
+
+
+  /*  #wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    
+    }
+

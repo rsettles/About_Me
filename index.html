@@ -1,10 +1,83 @@
+
 <!DOCTYPE html>
 <html>
-<!-- <head><link href="style.css" rel="stylesheet"></head> -->
+<head>
+  <meta charset="utf-8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link href="normalize.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
 
+</head>
+<div id="wrapper">
 <body>
-<h1>Home</h>
-<h2>git works</h2>
-<p>Hello World</p>
+ <div id="header"> <header>
+    <img class= "htmlpic" src="img/coding.png">
+    <img class= "jspic" src="img/javascript-icon.png">
+    <img class= "jquerypic" src="img/jquerypic.png">
+
+    <h1>Ryan Settles | Aspiring Developer</h1>
+
+  </header>
+</div>
+  <div id="headerborder"
+  <nav></nav>
+</div>
+<div id="content">
+  <article>
+    <img class="profilepic" src="img/ryan.jpeg"> 
+      <h2>About Me</h2>
+      <p>I am currently looking for projects to further develop my programming knowledge. I am a beginner in html, CSS, C, and Objective-C. Continuing to learn more everyday.</p>
+      <button class="mail"><a href="mailto:rsettles@gmail.com">Contact</a></button>
+       
+  </article>
+
+  <article>
+    <h3>Current Projects</h3>
+<div id="carousel">
+          <ul>
+            <li><a href="img/numbers-01.jpg" target="_blank"><img src="img/numbers-01.jpg" alt="One" /></a><p>Project 1</p></li>
+            <li><a href="img/numbers-02.jpg" target="_blank"><img src="img/numbers-02.jpg" alt="Two" /></a><p>Project 2</p></li>
+            <li><a href="img/numbers-06.jpg" target="_blank"><img src="img/numbers-06.jpg" alt="Six" /></a><p>Project 3</p></li>
+            <li><a href="img/numbers-09.jpg" target="_blank"><img src="img/numbers-09.jpg" alt="Nine" /></a><p>Project 4</p></li>
+          </ul>
+       </div>
+
+  </article>
+</div>
+
+<div id="footer">
+        <footer>
+        <a href="http://twitter.com/ryskyset"><img src="img/twitter-wrap.png" alt="Twitter logo" class="social-icon"></a>
+        <a href="http://www.facebook.com/rsettles"><img src="img/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
+        <p>&copy; 2014 Ryan Settles.</p>
+      </footer>
+    </div>
+        <script>
+    $(document).ready(function(){
+
+    $("#carousel ul").each(function(){
+      // Set the interval to be 10 seconds
+      var t = setInterval(function(){
+          $("#carousel ul").animate({marginLeft:-480},1000,function(){
+          // This code runs after the animation completes
+          $(this).find("li:last").after($(this).find("li:first"));
+          // Now we've taken out the left-most list item, reset the margin
+          $(this).css({marginLeft:0});
+        })
+      },5000);
+    });
+  });
+  </script> 
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
+
+
+
+  </script>
+
 </body>
-<html>
+
+</div>
+</html>
